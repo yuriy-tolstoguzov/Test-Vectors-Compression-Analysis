@@ -48,7 +48,7 @@ public class CompressionAnalyser {
     let numberOfGenerations: Int
     var delegate: CompressionAnalyserDelegate?
 
-    private var currentGeneration = 0
+    private var currentGeneration = 1
 
     init(withNumberOfTestVectors numberOfTestVectors: Int, lenghtOfTestVectors: Int, numberOfGenerations: Int) {
         self.numberOfTestVectors = numberOfTestVectors

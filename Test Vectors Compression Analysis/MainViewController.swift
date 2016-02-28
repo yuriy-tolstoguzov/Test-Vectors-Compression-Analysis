@@ -34,12 +34,6 @@ class MainViewController: NSViewController, CompressionAnalyserDelegate {
     @IBOutlet weak var progressLabel: NSTextField!
     @IBOutlet weak var analyseCompressionButton: NSButton!
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-
-    }
-
     @IBAction func calculateCompression(sender: AnyObject) {
         self.analyseCompressionButton.enabled = false
 
