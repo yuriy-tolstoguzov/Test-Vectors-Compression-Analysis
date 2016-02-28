@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1197190A1C789C090086C8F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119719091C789C090086C8F4 /* AppDelegate.swift */; };
+		1197190C1C789C090086C8F4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197190B1C789C090086C8F4 /* MainViewController.swift */; };
+		1197190E1C789C090086C8F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1197190D1C789C090086C8F4 /* Assets.xcassets */; };
+		119719111C789C090086C8F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1197190F1C789C090086C8F4 /* Main.storyboard */; };
+		119719191C789F370086C8F4 /* CompressionAnalyser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119719181C789F370086C8F4 /* CompressionAnalyser.swift */; };
+		1197191B1C78A1830086C8F4 /* TestVectorsGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1197191A1C78A1830086C8F4 /* TestVectorsGenerator.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		119719061C789C090086C8F4 /* Test Vectors Compression Analysis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test Vectors Compression Analysis.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		119719091C789C090086C8F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1197190B1C789C090086C8F4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1197190D1C789C090086C8F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		119719101C789C090086C8F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		119719121C789C090086C8F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		119719181C789F370086C8F4 /* CompressionAnalyser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompressionAnalyser.swift; sourceTree = "<group>"; };
+		1197191A1C78A1830086C8F4 /* TestVectorsGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVectorsGenerator.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		119719031C789C090086C8F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		119718FD1C789C090086C8F4 = {
+			isa = PBXGroup;
+			children = (
+				119719081C789C090086C8F4 /* Test Vectors Compression Analysis */,
+				119719071C789C090086C8F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		119719071C789C090086C8F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				119719061C789C090086C8F4 /* Test Vectors Compression Analysis.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		119719081C789C090086C8F4 /* Test Vectors Compression Analysis */ = {
+			isa = PBXGroup;
+			children = (
+				119719091C789C090086C8F4 /* AppDelegate.swift */,
+				1197190B1C789C090086C8F4 /* MainViewController.swift */,
+				119719181C789F370086C8F4 /* CompressionAnalyser.swift */,
+				1197191A1C78A1830086C8F4 /* TestVectorsGenerator.swift */,
+				1197190D1C789C090086C8F4 /* Assets.xcassets */,
+				1197190F1C789C090086C8F4 /* Main.storyboard */,
+				119719121C789C090086C8F4 /* Info.plist */,
+			);
+			path = "Test Vectors Compression Analysis";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		119719051C789C090086C8F4 /* Test Vectors Compression Analysis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119719151C789C090086C8F4 /* Build configuration list for PBXNativeTarget "Test Vectors Compression Analysis" */;
+			buildPhases = (
+				119719021C789C090086C8F4 /* Sources */,
+				119719031C789C090086C8F4 /* Frameworks */,
+				119719041C789C090086C8F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Test Vectors Compression Analysis";
+			productName = "Test Vectors Compression Analysis";
+			productReference = 119719061C789C090086C8F4 /* Test Vectors Compression Analysis.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		119718FE1C789C090086C8F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Yuriy Tolstoguzov";
+				TargetAttributes = {
+					119719051C789C090086C8F4 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 119719011C789C090086C8F4 /* Build configuration list for PBXProject "Test Vectors Compression Analysis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 119718FD1C789C090086C8F4;
+			productRefGroup = 119719071C789C090086C8F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				119719051C789C090086C8F4 /* Test Vectors Compression Analysis */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		119719041C789C090086C8F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1197190E1C789C090086C8F4 /* Assets.xcassets in Resources */,
+				119719111C789C090086C8F4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		119719021C789C090086C8F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1197190C1C789C090086C8F4 /* MainViewController.swift in Sources */,
+				119719191C789F370086C8F4 /* CompressionAnalyser.swift in Sources */,
+				1197191B1C78A1830086C8F4 /* TestVectorsGenerator.swift in Sources */,
+				1197190A1C789C090086C8F4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1197190F1C789C090086C8F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				119719101C789C090086C8F4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		119719131C789C090086C8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		119719141C789C090086C8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		119719161C789C090086C8F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Test Vectors Compression Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuriy-tolstoguzov.Test-Vectors-Compression-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		119719171C789C090086C8F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Test Vectors Compression Analysis/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yuriy-tolstoguzov.Test-Vectors-Compression-Analysis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		119719011C789C090086C8F4 /* Build configuration list for PBXProject "Test Vectors Compression Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119719131C789C090086C8F4 /* Debug */,
+				119719141C789C090086C8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		119719151C789C090086C8F4 /* Build configuration list for PBXNativeTarget "Test Vectors Compression Analysis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				119719161C789C090086C8F4 /* Debug */,
+				119719171C789C090086C8F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 119718FE1C789C090086C8F4 /* Project object */;
+}
