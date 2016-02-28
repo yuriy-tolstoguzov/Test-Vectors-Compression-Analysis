@@ -46,8 +46,9 @@ class MainViewController: NSViewController, CompressionAnalyserDelegate {
                 self.analyseCompressionButton.enabled = true
                 self.progressLabel.stringValue = "Done!"
                 let alert = NSAlert()
-                let percentCompression = (1 - result.averageCompression) * 100
-                alert.messageText = "compression: \(percentCompression)%"
+                let percentCompression = (1 - result.averageCompression)
+                let formattedPercentCompression = String(format: "%.2f", percentCompression * 100)
+                alert.messageText = "compression: \(formattedPercentCompression)%"
                 alert.runModal()
             })
         }
