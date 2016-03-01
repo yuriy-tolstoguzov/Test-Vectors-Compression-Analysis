@@ -3,7 +3,7 @@ Small MacOS X application for generating and compressing test vectors for testin
 
 
 **The application features:**
-- Generation of test vectors with normally distributed random bits;
+- Generation of test vectors with uniformly distributed random bits;
 - Exhaustive search for finding the most compressed possible input;
 - Repeates generation/compression of test vectors specified number of times to get statistically relevant results;
 - Intensive computation runs in background with displaying progress.
